@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="0.29"
+    android:padding="30dip"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="68dp"
+        android:gravity="center_horizontal"
+        android:text="@string/title_label"
+        android:textSize="30sp" />
+
+    <Spinner
+        android:id="@+id/engine_spinner"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="75dp"
+        android:scrollbarSize="6dp" />
+
+    <Button
+        android:id="@+id/track_engine_button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/engine_spinner"
+        android:layout_marginTop="75dp"
+        android:text="@string/track_santa_label"
+        android:textSize="22sp" />
+
+
+    <Button
+        android:id="@+id/quit_button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/versionText"
+        android:layout_marginBottom="5dp"
+        android:text="@string/quit_label"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/versionText"
+        android:layout_width="match_parent"
+        android:layout_height="37dp"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:text="Version "
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textSize="20sp"
+        tools:visibility="visible" />
+
+</RelativeLayout>

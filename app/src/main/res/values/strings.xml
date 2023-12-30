@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">HolidayEngineUpdater</string>
+    <string name="track_santa_label">Select Engine to Transmit</string>
+    <string name="quit_label">Quit</string>
+    <string name="title_label">Engines Tracker</string>
+    <string name="reset_label">Reset to Station</string>
+    <string name="santa_text_on_label">Stop Transmitting</string>
+    <string name="santa_text_off_label">Start Transmitting Santa</string>
+    <string name="login_label">Enter Password</string>
+</resources>
